@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+</head>
+<body>
+    <select id="categories" onchange="selectCategory()">
+        <option selected>Categories</option>
+        <option value="drinks">Drinks</option>
+        <option value="entrees">Entrees</option>
+        <option value="desserts">Desserts</option>
+    </select>
+    <select id="drinksList" size="3" style= "display:none">
+        <option value="water">Water</option>
+        <option value="tea">Tea</option>
+        <option value="sweet tea">Sweet Tea</option>
+        <option value="coke">Coke</option>
+        <option value="dr">Dr. Pepper</option>
+        <option value="sprite">Sprite</option>
+    </select>
+    <select id="entreesList" size="3" style="display: none">
+        <option value="burger">Hamburger w/ Fries</option>
+        <option value="grilledCheese">Grilled Cheese w/ Tater Tots</option>
+        <option value="grilledChicken">Grilled Chicken w/ Veggies</option>
+        <option value="friedSteak">Chicken Fried Steak w/ Mashed Potatoes</option>
+        <option value="friedShrimp">Fried Shrimp w/ Coleslaw</option>
+        <option value="veggie">Veggie Plate</option>
+    </select>
+    <select id="dessertsList" size="3" style="display: none">
+        <option value="cheesecake">Cheesecake</option>
+        <option value="chocolateCake">Chocolate Cake</option>
+        <option value="snickerdoodle">Snickerdoodle Cookie</option>
+    </select>
+
+    <script src="Scripts/index.js"></script>
+</body>
+</html>
